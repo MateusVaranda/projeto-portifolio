@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*
+-------Cores do meu site:---------
+--menu: #10403B
+--letra menu: #8AA6A3
+--main: #127369
+--letra main: #BFBFBF
+--rodape: #4C5958
+
+--------fontes do meu site:----------
+----fonte do meus h1:
+font-family: "Bebas Neue", sans-serif;
+
+----fonte dos meus paragrafos:
+  font-family: "Alegreya Sans", sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-1: #10403B;
+    --cor-2: #8AA6A3;
+    --cor-3: #127369;
+    --cor-4: #BFBFBF;
+    --cor-5: #4C5958;
+
+    --fonte-1: "Bebas Neue", sans-serif;
+    --fonte-2: "Alegreya Sans", sans-serif;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5em;
+  background-color: var(--cor-3);
+}
+
+header {
+    background-color: var(--cor-1);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav#menu > ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav#menu a:hover {
+    background-color: var(--cor-3);
+}
