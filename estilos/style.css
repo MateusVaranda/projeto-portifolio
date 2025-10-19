@@ -16,6 +16,8 @@ header {
     display: flex;
     justify-content: flex-end;
     align-content: center;
+    position: sticky;
+    top: 0;
 }
 
 #menu ul {
