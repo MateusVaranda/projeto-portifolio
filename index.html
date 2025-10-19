@@ -1,42 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Mateus Varanda</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="shortcut icon" href="imagens/favicon_io/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"     crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Sriracha&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/favicon_io/favicon-16x16.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e40b388389.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <h1>Mateus Varanda F de Carvalho</h1>
-        <nav id="menu">
-            <ul>
-                <li><a href=""><i class="fa-solid fa-house" style="color: #ffffff;"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-newspaper"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-sun"></i></a></li>
-            </ul>
-        </nav>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-certificate" style="color: #ffffff;"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-sheet-plastic" style="color: #ffffff;"></i></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
     <main>
+        <section id="ficha">
 
+            <img src="imagens/imagem-mateus-2.jpg" alt="Foto de Mateus" class="foto">
+
+            <h1>Mateus Varanda ferreira de Carvalho</h1>
+
+            <p>Sou formado em Engenharia de Software e possuo conhecimento em HTML e CSS. Durante o ensino médio,
+                concluí o curso técnico em Informática, onde desenvolvi minha base em tecnologia e programação.
+                Atualmente, estou me especializando para me tornar um desenvolvedor Fullstack, iniciando minha
+                trajetória profissional na área de desenvolvimento web. Sou movido pela curiosidade e estou sempre em
+                busca de novos aprendizados e aprimoramento constante nas linguagens de programação.</p>
+
+            <div id="social">
+                <a href="https://www.linkedin.com/in/mateus-varanda-ferreira-de-carvalho-405482262/" target="_blank"
+                rel="nofollow"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/MateusVaranda" target="_blank" rel="nofollow"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.youtube.com/@mateusvaranda13" target="_blank" rel="nofollow"><i
+                class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/mateus_276/" target="_blank" rel="nofollow"><i
+                class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </section>
+
+        <section id="detalhes">
+
+            <article id="cursos">
+                <h2><i class="fa-solid fa-certificate" style="color: rgb(3, 123, 221);;"></i> Cursos</h2>
+
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2024-2024</p>
+                        <h3 class="instituicao">Vertical Treinamentos</h3>
+                        <p class="titulacao">Curso CFTV</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">2016-2018</p>
+                        <h3 class="instituicao">Escola Estadual Juscelino Kubitschek de Oliveira</h3>
+                        <p class="titulacao">Ensino Médio com Curso Tecnico Profissionalizante de Informatica</p>
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="formacao">
+                <h2><i class="fa-solid fa-graduation-cap" style="color: rgb(3, 123, 221);;"></i> Graduação</h2>
+
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2022 - 2025</p>
+                        <h3 class="instituicao">Universidade Pitágoras Unopar Anhanguera</h3>
+                        <p class="titulacao">Engenharia de Software</p>
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="projetos">
+                <h2><i class="fa-solid fa-sheet-plastic" style="color: rgb(3, 123, 221);"></i> Projetos</h2>
+            </article>
+        </section>
 
     </main>
 
     <footer>
 
-
     </footer>
 
     <script src="scripts/script.js"></script>
 </body>
+
 </html>
